@@ -1,0 +1,21 @@
+{
+  "name": "startup-prototype",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+   "start": "node app.js",
+    "dev": "nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+  "keywords": ["startup", "prototype", "express", "nodejs"],
+  "author": "Salman-Yusuf Khalid Olaniyi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
