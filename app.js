@@ -3,7 +3,7 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 // Middleware
 app.use(cors());
@@ -43,6 +43,4 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`📱 Local: http://localhost:${PORT}`);
-  console.log(`🌍 Network: http://0.0.0.0:${PORT}`);
 });
