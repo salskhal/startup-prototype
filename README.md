@@ -90,7 +90,7 @@ Internet → DNS (gra8sal.xyz) → AWS EC2 → Nginx (Reverse Proxy) → Node.js
 1. **Clone Repository**
 
    ```bash
-   git clone https://github.com/yourusername/startup-web-app.git
+   git clone https://github.com/salskhal/startup-prototype.git
    cd startup-web-app
    ```
 
@@ -173,10 +173,6 @@ Internet → DNS (gra8sal.xyz) → AWS EC2 → Nginx (Reverse Proxy) → Node.js
    sudo certbot --nginx -d gra8sal.xyz -d www.gra8sal.xyz
    ```
 
-3. **Verify Auto-Renewal**
-   ```bash
-   sudo certbot renew --dry-run
-   ```
 
 
 ## 🔧 Application Features
@@ -205,8 +201,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Your Name** - Lead Cloud Engineer
 
 - Website: [https://gra8sal.xyz](https://gra8sal.xyz)
-- GitHub: [@yourusername](https://github.com/salskhal)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/salskhal)
+- GitHub: [salskhal](https://github.com/salskhal)
+- LinkedIn: [salskhal](https://linkedin.com/in/salskhal)
 
 ## 🙏 Acknowledgments
 
@@ -217,4 +213,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Project Status:** ✅ Production Ready | **Last Updated:** June 2025
+**Project Status:** ✅ Production Ready
